@@ -1,14 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Greet from './components/Greet';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          何書けばいいか忘れた。
-        </p>
-      </header>
+    <div>
+      <Greet greeting="hello"/>
+      <Greet greeting="abcd"/>
+      <Greet greeting="123"/>
     </div>
   );
 }
